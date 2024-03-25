@@ -27,7 +27,7 @@ The steps to build the PE-based and PB-based portfolios in this research are as 
 
 Summary of portfolio performances in this research are as follows:
 
-[Portfolio_performance](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_performance.png)
+![Portfolio_performance](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_performance.png)
 
 
 | Portfolio       | 2020-2023 CAGR |
@@ -40,4 +40,4 @@ Summary of portfolio performances in this research are as follows:
 
 Overview of stocks in the investment portfolios over 2020-2023 period:
 
-[Portfolio_overview](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_overview.png)
+![Portfolio_overview](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_overview.png)
