@@ -13,8 +13,8 @@ The research and experiment were run on Google Colab, and the financial and pric
 
 ## Methodology for Portfolio Construction
 The steps to build the PE-based and PB-based portfolios in this research are as follows:
-- **Step 1**: ranking companies by market capitalization in the downloaded list of ASX Listed Companies. The top 100 companies will be selected for the [investment universe]().
-- **Step 2**: running the [portfolio_construction.ipynb]() on Google Colab (Please also store the [investment universe file]() on Google Colab).
+- **Step 1**: ranking companies by market capitalization in the downloaded list of ASX Listed Companies. The top 100 companies will be selected for the [investment universe](https://github.com/DoThNg/portfolio_construction/blob/main/asx_ticker_universe.xlsx).
+- **Step 2**: running the [portfolio_construction.ipynb](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_construction.ipynb) on Google Colab (Please also store the [investment universe file](https://github.com/DoThNg/portfolio_construction/blob/main/asx_ticker_universe.xlsx) on Google Colab).
     
     - Data on financials (Diluted EPS and Tangible Book Value) and stock prices will be downloaded from Yahoo Finance, using yfinance library. (**Note**: the stock prices were downloaded from the 1st to the 7th of September from 2019 to 2023 - and the reasoning for this is to ensure when PE and PB ratios are computed, most companies in ASX release their full-year results, so the ratios will best reflect these results)  
     - PE and PB ratios for 100 companies will be computed based on the downloaded data (In this research, since 2019 data was not available, the portfolio will be only selected in 2020, 2021, and 2022).
@@ -23,9 +23,11 @@ The steps to build the PE-based and PB-based portfolios in this research are as 
 
 - **Step 3**: Computing the PE-based and PB-based portfolio performances and comparing with index performances (S&P/ASX 100, S&P/ASX 200, and All Ordinaries) over 2020-2023 period. 
 
+**Note**: In this experiment, a web application was also created, using Gradio to compute and visualize portfolio performances. The code to create this application can be found in the last section of [portfolio_construction.ipynb](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_construction.ipynb)
+
 Summary of portfolio performances in this research are as follows:
 
-[Portfolio_performance]()
+[Portfolio_performance](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_performance.png)
 
 
 | Portfolio       | 2020-2023 CAGR |
@@ -36,5 +38,6 @@ Summary of portfolio performances in this research are as follows:
 | S&P/ASX 200     | 6.64%          |
 | All Ordinaries  | 6.54%          |
 
+Overview of stocks in the investment portfolios over 2020-2023 period:
 
-[Portfolio_overview]()
+[Portfolio_overview](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_overview.png)
