@@ -32,11 +32,11 @@ Summary of portfolio performances in this research are as follows:
 
 | Portfolio       | 2020-2023 CAGR |
 | --------------- | -------------  |
-| PE-based        | 29.01%         |
-| PB-based        | 37.43%         |
-| S&P/ASX 100     | 7.33%          |
-| S&P/ASX 200     | 6.64%          |
-| All Ordinaries  | 6.54%          |
+| PE-based        |    29.01%      |
+| PB-based        |    37.43%      |
+| S&P/ASX 100     |    7.33%       |
+| S&P/ASX 200     |    6.64%       |
+| All Ordinaries  |    6.54%       |
 
 Overview of stocks in the investment portfolios over 2020-2023 period:
 
