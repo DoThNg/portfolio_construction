@@ -22,7 +22,7 @@ The steps to build the PE-based and PB-based portfolios in this research are as 
 
 - **Step 3**: Computing the PE-based and PB-based portfolio performances and comparing with index performances (*S&P/ASX 100*, *S&P/ASX 200*, and *All Ordinaries*) over 2020-2023 period. 
 
-**Note**: In this experiment, a web application was also created, using Gradio to compute and visualize portfolio performances. The code to create this application can be found in the last section of [portfolio_construction.ipynb](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_construction.ipynb)
+**Note**: In this experiment, a web application was also created, using Gradio to compute and quickly visualize portfolio performances. The code to create this application can be found in the last section of [portfolio_construction.ipynb](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_construction.ipynb)
 
 Summary of portfolio performances in this research are as follows:
 
