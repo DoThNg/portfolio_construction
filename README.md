@@ -17,7 +17,7 @@ The steps to build the PE-based and PB-based portfolios in this research are as 
     
     - Data on financials (*Diluted EPS* and *Tangible Book Value*) and stock prices will be downloaded from Yahoo Finance, using yfinance library. (**Note**: the stock prices were downloaded from the 1st to the 7th of September from 2019 to 2023. The reasoning for this is to ensure when PE and PB ratios are computed, most companies in ASX have released their full-year results, so the ratios would best reflect these full-year/annual results)  
     - PE and PB ratios for 100 companies will be computed based on the downloaded data (In this research, since financial 2019 data was not available, the portfolio will be only selected in 2020, 2021, and 2022).
-    - Filter out all negative PE and PB, and select 10 companies (each represents 10% of investment portfolio value) with the **lowest PE** and **PB ratio** in each investment year.
+    - Filter out all negative PE and PB, and select 10 companies (each represents 10% of investment portfolio value) with the **lowest PE** for PE-based portfolio and the **lowest PB ratio** for PB-based portfolio in each investment year.
     - 10 companies selected in each investment year will form an investment portfolio in that year - This also means the rebalancing period of portfolio is annual).    
 
 - **Step 3**: Computing the PE-based and PB-based portfolio performances and comparing with index performances (*S&P/ASX 100*, *S&P/ASX 200*, and *All Ordinaries*) over 2020-2023 period. 
