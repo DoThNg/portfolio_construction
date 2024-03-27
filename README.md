@@ -16,7 +16,7 @@ The steps to build the PE-based and PB-based portfolios in this research are as 
 - **Step 2**: running the [portfolio_construction.ipynb](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_construction.ipynb) on Google Colab (Please also store the [investment universe file](https://github.com/DoThNg/portfolio_construction/blob/main/asx_ticker_universe.xlsx) on Google Colab).
     
     - Data on financials (*Diluted EPS* and *Tangible Book Value*) and stock prices will be downloaded from Yahoo Finance, using yfinance library. (**Note**: the stock prices were downloaded from the 1st to the 7th of September from 2019 to 2023. The reasoning for this is to ensure when PE and PB ratios are computed, most companies in ASX have released their full-year results, so the ratios would best reflect these full-year/annual results)  
-    - PE and PB ratios for 100 companies will be computed based on the downloaded data (In this research, since 2019 data was not available, the portfolio will be only selected in 2020, 2021, and 2022).
+    - PE and PB ratios for 100 companies will be computed based on the downloaded data (In this research, since financial 2019 data was not available, the portfolio will be only selected in 2020, 2021, and 2022).
     - Filter out all negative PE and PB, and select 10 companies (each represents 10% of investment portfolio value) with the **lowest PE** and **PB ratio** in each investment year.
     - 10 companies selected in each investment year will form an investment portfolio in that year - This also means the rebalancing period of portfolio is annual).    
 
