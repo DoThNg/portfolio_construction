@@ -4,7 +4,9 @@
 This small research is not an investment advice and should not be relied upon in any investment decisions. Please be also noted that past performance information is given for illustrative purposes only, and it is not an indication of future performance. In conducting this research, many factors (e.g., transaction fees, capital gain tax, survivorship bias, investment risks, etc.)  have not been taken into account and it will, therefore, not be applicable to an individual's objectives or financial situation.
 
 ### Introduction
-This is an experiment and a small research on performances of investment portoflios from 2020 to 2023, constructed by stock selections from universe of companies listed on Australian Shares Exchange (ASX) and based on rankings of **PE** or **PB** ratios among stocks.
+This is an experiment and an empirical research on building a portfolio based on systematic equity strategy (using valuation approach with PE and PB ratios). There're also other systematic equity strategies (Quality, Sentiment and Momentum) that can be further studied but the implementation of these is not in the scope of this experiment ([Reference Link for Systematic Equity Strategies by MSCI](https://www.msci.com/www/blog-posts/using-systematic-equity/0246867895).
+
+The portfolio is constructed by stock selections from universe of companies listed on Australian Shares Exchange (ASX) and based on rankings of **PE** or **PB** ratios among stocks. The timeline for reviewing performances of investment portoflios is from Q3/2020 to Q3/2023.
 
 The investment universe used in this research contains 100 companies which have the largest market capitalization at the time when the list of ASX Listed Companies was downloaded (The list, containing 2001 companies was downloaded on 14 March 2024 at ASX website - [Link](https://www.asx.com.au/markets/trade-our-cash-market/directory)
 
@@ -42,3 +44,18 @@ Overview of stocks in the investment portfolios over 2020-2023 period:
 **PE-based portfolio**:
 
 ![PE Portfolio_overview](https://github.com/DoThNg/portfolio_construction/blob/main/portfolio_overview.png)
+
+**PB-based portfolio**:
+
+![PB Portfolio_overview](https://github.com/DoThNg/portfolio_construction/blob/main/PB_portfolio_overview.png)
+
+---
+
+This is an extension for the above study on portfolio construction with systematic equity strategy. The returns of PE-based and PB-based portfolios are computed and compared with other indices on a quarterly basis. This step is done using R (Package **PerformanceAnalytics**). In this step, in addition to an annual portfolio rebalancing strategy, a quarterly portfolio rebalancing strategy (after each quarter, the 10% allocation rule applies for each investment) is further implemented for an evaluation of impact of time-based rebalancing strategy. The selected stocks remains unchaged and the stock selection process still occurs on an annual basis.
+
+**PE-based portfolio**:
+![Annual_Rebalance_Strategy](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_annual_rebalancing.pdf)
+
+**PE-based portfolio**:
+![Quarterly_Rebalance_Strategy](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_quarterly_rebalancing.pdf)
+
