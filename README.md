@@ -54,8 +54,8 @@ Overview of stocks in the investment portfolios over 2020-2023 period:
 This is an extension for the above study on portfolio construction with systematic equity strategy. The returns of PE-based and PB-based portfolios are computed and compared with other indices on a quarterly basis. This step is done using R (Package **PerformanceAnalytics**). In this step, in addition to an annual portfolio rebalancing strategy, a quarterly portfolio rebalancing strategy (after each quarter, the 10% allocation rule applies for each investment) is further implemented for an evaluation of impact of time-based rebalancing strategy. The selected stocks remains unchaged and the stock selection process still occurs on an annual basis.
 
 **Annual Rebalancing Strategy**:
-![](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_annual_rebalancing.pdf)
+![Annual_Rebalancing_Strategy](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_annual_rebalancing.pdf)
 
 **Quarterly Rebalancing Strategy**:
-![](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_quarterly_rebalancing.pdf)
+![Quarterly_Rebalancing_Strategy](https://github.com/DoThNg/portfolio_construction/blob/main/Portfolio_Performance_quarterly_rebalancing.pdf)
 
