@@ -6,7 +6,7 @@ This small research is not an investment advice and should not be relied upon in
 ### Introduction
 This is an experiment and an empirical research on building a portfolio based on systematic equity strategy (using valuation approach with PE and PB ratios). There're also other systematic equity strategies (Quality, Sentiment and Momentum) that can be further studied but the implementation of these is not in the scope of this experiment ([Further reference for Systematic Equity Strategies by MSCI](https://www.msci.com/www/blog-posts/using-systematic-equity/0246867895)).
 
-The portfolio is constructed by stock selections from universe of companies listed on Australian Shares Exchange (ASX) and based on rankings of **PE** or **PB** ratios among stocks. The timeline for reviewing performances of investment portoflios is from Q3/2020 to Q3/2023.
+The portfolio is constructed by stock selections from universe of companies listed on Australian Shares Exchange (ASX) and based on rankings of **PE** or **PB** ratios among stocks. The timeline for reviewing performances of investment portoflios is from Q3/2020 to Q3/2023. For computation of portfolio returns, only adjusted stock prices are taken into account (dividend payout is not included).    
 
 The investment universe used in this research contains 100 companies which have the largest market capitalization at the time when the list of ASX Listed Companies was downloaded (The list, containing 2001 companies was downloaded on 14 March 2024 at ASX website - [Link](https://www.asx.com.au/markets/trade-our-cash-market/directory)
 
