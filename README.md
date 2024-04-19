@@ -1,7 +1,7 @@
 ## Construct investment portfolios based on PE and PB ratios
 ---
 ### Disclaimers
-This small research is not an investment advice and should not be relied upon in any investment decisions. Please be also noted that past performance information is given for illustrative purposes only, and it is not an indication of future performance. In conducting this research, many factors (e.g., transaction fees, capital gain tax, survivorship bias, investment risks, etc.)  have not been taken into account and it will, therefore, not be applicable to an individual's objectives or financial situation.
+This is an empirical research, and it is not an investment advice and should not be relied upon in any investment decisions. Please be also noted that past performance information is given for illustrative purposes only, and it is not an indication of future performance. In conducting this research, many factors (e.g., transaction fees, capital gain tax, survivorship bias, investment risks, etc.)  have not been taken into account and it will, therefore, not be applicable to an individual's objectives or financial situation.
 
 ### Introduction
 This is an experiment and an empirical research on building a portfolio based on systematic equity strategy (using valuation approach with PE and PB ratios). There're also other systematic equity strategies (Quality, Sentiment and Momentum) that can be further studied but the implementation of these is not in the scope of this experiment ([Further reference for Systematic Equity Strategies by MSCI](https://www.msci.com/www/blog-posts/using-systematic-equity/0246867895)).
